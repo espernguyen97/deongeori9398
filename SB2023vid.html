@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+ 
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+
+      .photo-container {
+        max-width: 1225px;
+        width: 90%;
+        margin: auto;
+        padding: 40px 0;
+        box-shadow: o 5px 15px rgba(0, 0, 0, 1);
+        overflow: hidden;
+        cursor: pointer;
+
+      }
+
+      .photo-gallery {
+        display: flex;
+        gap: 20px
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .photo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+        transition: .2s linear;
+        pointer-events: all;
+      }
+
+      .photo:hover img {
+        transform: scale(1.05);
+      }
+
+
+      @media(max-width:768px) {
+        .photo-gallery {
+          flex-direction: column;
+        }
+      }
+
+    }
+  </style>
+  <title>Smin Rose</title>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3GSW8FFLL5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-3GSW8FFLL5');
+</script>
+
+<body >
+  <!-- Header -->
+  <section style="background-color: rgb(31, 30, 30)" id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>D</span>eongeori <span>93</span>98</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html#projects" data-after="Home">Home</a></li>
+            <li><a href="BC-detail.html" data-after="Back">Back</a>
+            </li>
+        </div>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+
+  <section id="projects" style="background-color: rgb(31, 30, 30)">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title" style="color:whitesmoke"><strong>ALL <span>videos</span></strong></h1>
+      </div>
+
+  
+    </div>
+  </div>
+
+    </div>
+
+    </section>
+
+
+
+  
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>D</span>eongeori <span>93</span>98</h1>
+      </div>
+      <br>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="" target="_blank"><img
+              src="https://img.icons8.com/plasticine/72/github.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href=""><img src="https://img.icons8.com/clouds/344/gmail-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="" target="_blank"><img
+            src="https://img.icons8.com/fluency/48/facebook.png" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
