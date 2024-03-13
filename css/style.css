@@ -362,18 +362,18 @@ p {
 	display:flex;
 	align-items: center;
 	justify-content: center;
-	padding: 50px 8%;
+	padding: 40px 8%;
 }
 
 .events {
 	display:grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-	grid-gap:30px;
+	grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
+	grid-gap:40px;
 }
   
 .events img {
 	width: 100%;
-	height: 90%;
+	height: 100%;
     object-fit: cover;
 	cursor: pointer;
 }
@@ -387,7 +387,7 @@ p {
     position: relative;
     bottom: 55px;
     left: 15px;
-    color: #e5e0e0;
+    color: #6A5ACD;
 	font-weight: bolder;
     text-transform: uppercase;
     font-size: 20px;
@@ -704,6 +704,7 @@ display: block;
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
+		border-radius: 15px;
 	}
 	h1.section-title {
 		font-size: 6rem;
